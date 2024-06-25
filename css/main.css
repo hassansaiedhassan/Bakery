@@ -1,0 +1,414 @@
+/* ^=========Global---> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alegreya Sans', sans-serif;
+list-style-type: none;
+font-size: 22px;
+  text-decoration: none;
+  
+}
+a {
+color: inherit;
+}
+
+.clr {
+  clear: both;
+}
+.container{
+  width: 96%;
+}
+/* ^========Home ---> */
+#home {
+  background-image: url('../images/drew-coffman-1872.jpg');
+  background-size: cover;
+   position: relative;
+  height: 100vh;
+
+
+}
+
+.navbar{
+  background-color: white;
+  position: fixed;
+  top:0;
+  left: 0;
+  width:100%;
+
+}
+.layer{
+  width:90%;
+  margin:auto;
+}
+.navbar-img{
+
+  float:left;
+}
+.navbar-img img{
+  width:200px;
+}
+.navbar-links{
+  float:right
+}
+.navbar-links li{
+ 
+  display: inline-block;
+  padding:20px;
+}
+.navbar-links li a{
+padding:20 50;
+
+}
+.counter{
+  position:relative;
+  margin: auto;
+  
+}
+.counter a{
+  color: black;
+}
+.counter .dropdown {
+  display: none;
+  position:absolute;
+  top: 50px;
+  z-index: 1px;
+  width:150px;
+  box-sizing: border-box;
+  background-color: #373a3c;
+}
+.counter .dropdown li{
+width:100%;
+padding: 20px;
+}
+.counter:hover .dropdown{
+  display: block;
+ 
+}
+.counter .dropdown li:hover{
+  background-color: #AE9768;
+}
+.counter .dropdown a{
+  color:white;
+}
+#home .caption {
+  text-align: center;
+
+  color: white;
+  width: fit-content;
+  position: absolute;
+margin-top:50px ;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  margin: auto;
+
+}
+
+#home .caption h1 {
+  font-size: 76px;
+}
+
+#home .caption p {
+  font-size: 24px;
+  margin: 20px 10px;
+}
+
+#home .caption .btn1,
+#home .caption .btn2 {
+  padding: 15px 25px;
+  color: white;
+  font-family: "Alegreya Sans";
+  margin-top: 1rem;
+}
+
+#home .caption .btn1 {
+  background-color: #C1AB84;
+  border: none;
+  margin-right: 10px;
+
+}
+
+#home .caption .btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+
+}
+
+#home .caption .btn1:hover,
+#home .caption .btn2:hover {
+  background-color: beige;
+  color: black;
+}
+/* ?=========about---> */
+
+
+#about {
+padding:50px 80px;
+
+}
+
+#about .container{
+ 
+ padding-block: 10px;
+
+ 
+}
+#about .about-img {
+
+  width: 50%;
+  display: inline-block;
+  
+}
+
+#about .about-img img {
+  width: 100%;
+ 
+
+
+}
+
+#about .about-info {
+  width: 45%;
+  display: inline-block;
+  margin-left:30px;
+  padding-top: 15px;
+
+}
+
+#about .about-info h2{
+  font-family:  "Alegreya";
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+#about .about-info p {
+  margin-top: 1rem;
+  color: #686868;
+}
+
+#about .about-info .dec-icon ul {
+
+  margin-top: 1rem;
+
+}
+
+#about .about-info .dec-icon li {
+  margin-bottom: 5px;
+ 
+  text-align: bottom;
+  display: flex;
+  justify-content: left;
+
+}
+
+.about-info .dec-icon li img {
+  
+  margin-right: 7px;
+  width: 7%;
+  height: 7%;
+  align-self: center;
+  background-color: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 50% ;
+  margin-top: 10px;
+}
+
+#about .about-info .dec-icon li p {
+  display: inline-block;
+ 
+  padding-block: 15px;
+  text-align: end;
+
+
+}
+
+#area {
+  width: 95%;
+  margin-left: 3rem;
+
+
+}
+
+#area .area-info {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+
+.area-info p {
+  margin-top: 2rem;
+  font-size: 17px;
+  color: #686868;
+
+}
+
+#area .area-img {
+  width: 52%;
+  vertical-align: middle;
+  margin-top: 4rem;
+  display: inline-block;
+}
+
+#area .area-img img {
+  width: 100%;
+
+}
+
+#beard {
+
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#beard h3,
+#beard h2 {
+  margin: 2rem;
+}
+
+#beard p {
+  margin-bottom: 3rem;
+}
+
+#beard .product {
+  margin-left: 1rem;
+  width: 30%;
+  display: inline-block;
+
+
+}
+
+#beard .product img {
+  width: 100%;
+}
+
+#contact h2 {
+  padding: 2rem;
+
+}
+
+#contact {
+  background-color: #F8F8F8;
+padding:50px 80px;
+text-align: center;
+}
+
+#contact .contact-info {
+  float: left;
+  width: 45%;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+#contact .contact-info ul {
+  padding: 0;
+  margin-top: 3rem;
+
+}
+
+#contact .contact-info li {
+  margin-bottom: 10px;
+}
+
+#contact .contact-info li img {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 5%;
+  background-color: #8E7754;
+  border-radius: 5rem;
+  height: auto;
+}
+
+#contact .contact-info li p {
+  display: inline;
+}
+
+#contact .contact-map {
+  float: left;
+  width: 45%;
+  background-color: aliceblue;
+  margin-top: 4rem;
+
+}
+
+#contact .contact-map iframe {
+  width: 100%;
+  height: 70vh;
+
+}
+
+#detail {
+  text-align: center;
+  padding:50px 80px;
+  background-color: #403D38;
+
+}
+
+#detail ul {
+  float:left;
+  width: 25%;
+  padding-inline: 10px;
+  
+  text-align: left;
+
+}
+
+#detail  li{
+  padding-block: 5px;
+  border-bottom: 1px solid wheat;
+}
+#detail  .child-last li,.map-list,#detail  .child-last {
+  border-bottom:none;
+}
+.map-list .first-child p{
+  font-size: 15px;
+}
+#detail li p {
+  display: inline;
+}
+
+#detail li img {
+  width: 5%;
+}
+
+#detail .map-list {
+  background-image: url(../images/contact-details-map.png);
+  background-size: cover;
+  
+}
+
+#detail .map-list li img {
+  width: 10%;
+}
+
+#detail p {
+  color: #686868;
+}
+
+#detail h2 {
+  color: white;
+  padding-block:20px ;
+}
+
+#end-page {
+  background-color: #353330;
+  text-align: center;
+
+}
+
+#end-page .position-list a img {
+  width: 7%;
+  border-radius: 4rem;
+}
+
+#end-page .position-list a img:hover {
+  background-color: blue;
+}
+
+#end-page .position-list .google img:hover {
+  background-color: tomato;
+}
